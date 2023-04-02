@@ -1,11 +1,12 @@
-import { useState } from "react";
-
 import "./App.css";
+import Auth from "./components/Auth";
 
 function App() {
   return (
     <div className="App">
-      <div>Learning Firebase</div>
+      <div>
+        <Auth />
+      </div>
     </div>
   );
 }
